@@ -1,4 +1,4 @@
-from Loginsystem.Database.db import get_connection
+from db import get_connection
 
 try:
     conn = get_connection()
